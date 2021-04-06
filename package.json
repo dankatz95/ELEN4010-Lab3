@@ -1,0 +1,24 @@
+{
+  "name": "elen4010-lab3",
+  "version": "1.0.0",
+  "description": "Lab 3 npm folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankatz95/ELEN4010-Lab3.git"
+  },
+  "keywords": [
+    "npm",
+    "front-end",
+    "Node"
+  ],
+  "author": "Daniel Katz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dankatz95/ELEN4010-Lab3/issues"
+  },
+  "homepage": "https://github.com/dankatz95/ELEN4010-Lab3#readme"
+}
