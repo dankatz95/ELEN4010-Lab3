@@ -22,16 +22,20 @@ const students = [
   }
 ]
 
-const studentHolder = document.getElementById('myDiv')
-
 for (let i = 0; i < 5; i++) {
-  const student = document.createElement('p')
+  const section = document.getElementById(`Student ${i + 1}`)
+  for (let j = 0; j < 2; j++) {
+    const data = document.createElement('td')
+    let text
+    if (j === 0) {
+      text = document.createTextNode(`${students[i].name}`)
+    } else {
+      text = document.createTextNode(`${students[i].studentNumber}`)
+    }
 
-  const text = document.createTextNode(`Name: ${students[i].name} --- Std num:  ${students[i].studentNumber}`)
-
-  student.appendChild(text)
-
-  studentHolder.appendChild(student)
+    data.appendChild(text)
+    section.appendChild(data)
+  }
 }
 
 document.getElementById('myDiv').style.display = 'none'
